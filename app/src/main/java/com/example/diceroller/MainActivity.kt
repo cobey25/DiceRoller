@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
             /**
              * creates a disappearing message that is seen after the button is clicked
              */
-            val toast = Toast.makeText(this, "Hooray! - Dice Rolled!", Toast.LENGTH_SHORT)
+            val toast = Toast.makeText(this, getString(R.string.action_message), Toast.LENGTH_SHORT)
             toast.show()
 
             // Do a dice roll when the app starts
